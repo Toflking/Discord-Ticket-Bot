@@ -23,6 +23,7 @@ Supports ticket creation, claim/unclaim, closing, reopening, deleting, and autom
    git clone https://github.com/Toflking/Discord-Ticket-Bot.git
    cd Discord-Ticket-Bot
    npm install
+   cd src
    ```
 
 2. Create a `.env` file in the project root and fill in the values:
