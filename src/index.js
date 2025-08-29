@@ -380,7 +380,7 @@ body {
             const adminRole = interaction.guild.roles.cache.get(config.adminRoleId);
 
             if (!modRole || !adminRole) {
-                return interaction.reply({ content: '❌ Mod- oder Admin-Rolle konnte nicht gefunden werden!', ephemeral: true });
+                return interaction.reply({ content: 'Restarte den Bot zuerst', ephemeral: true });
             }
             const ticketChannel = await interaction.guild.channels.create({
                 name: channelName,
@@ -445,3 +445,4 @@ body {
 
 
 client.login(process.env.DISCORD_TOKEN);
+
