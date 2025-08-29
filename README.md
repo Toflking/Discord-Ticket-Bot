@@ -20,7 +20,7 @@ Supports ticket creation, claim/unclaim, closing, reopening, deleting, and autom
 
 1. Clone the repository and install dependencies:
    ```bash
-   git clone https://github.com/yourusername/ticket-bot.git
+   git clone https://github.com/Toflking/Discord-Ticket-Bot.git
    cd ticket-bot
    npm install
    ```
