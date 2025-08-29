@@ -14,7 +14,6 @@ for (const file of commandFiles) {
 }
 client.once('ready', () => {
     console.log(`✅ Logged in as ${client.user.tag}`);
-    client.user.setActivity('Pornhub', { type: ActivityType.Watching });
 });
 let config = {};
 const configPath = './config.json';
@@ -443,5 +442,6 @@ body {
     }
 
 });
+
 
 client.login(process.env.DISCORD_TOKEN);
